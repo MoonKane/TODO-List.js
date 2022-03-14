@@ -1,0 +1,174 @@
+* {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #E7E7E7;
+}
+
+label {
+	user-select: none; 
+	-webkit-user-select: none;
+}
+label:hover {cursor: pointer;}
+
+/* TODOLIST */
+
+.todo {
+	width: 50vw;
+	min-width: 350px;
+	box-shadow: 2px 3px 1px lightgray;
+	margin: 20vh auto;
+	background-color: white;
+	border: 1px solid lightgray;
+}
+
+
+/* HEADER */
+
+.header {
+	background-color: yellow;
+	padding: 10px;
+}
+
+.tod {
+	text-align: center;
+	-webkit-user-select: none;
+	user-select: none; 
+}
+
+
+/* LIST */
+
+.buttonlist {
+	width: 100%;
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+input[type="button"]:enabled {
+	cursor: pointer;
+}
+
+input[type="button"]:disabled {
+	cursor: no-drop;
+}
+
+input[type="button"] {
+	transition: 0s all;
+}
+
+input[type="button"]:enabled:hover {
+	transform: scale(1.02);
+}
+
+input[type="button"]:enabled:active {
+	transform: scale(1);
+}
+
+input[type="button"]:focus {
+	outline: none;
+}
+
+.butlist {
+	width: 33%;
+	background-color: #E7E7E7;
+	font-weight: bold;
+	text-decoration: underline;
+	letter-spacing: 1px;
+}
+
+.list {
+	padding: 20px;
+	min-height: 300px;
+}
+
+.worded {
+	width: 100%;
+	border: 1px solid blue;
+	display: flex;
+	margin-bottom: 5px;
+}
+
+.inpcheck {
+	height: 100%;
+	margin: auto 5px auto 0;
+	float: left;
+}
+
+.check {
+	width: 70%;
+	padding: 5px;
+}
+
+.butword {
+	width: 15%;
+	background-color: #E7E7E7;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.red {
+	border-left: 1px solid blue;
+	border-right: 1px solid blue;
+}
+
+.del:hover {
+	border-left: 1px solid blue;
+	border-right: 1px solid blue;
+}
+
+.nonetod {
+	color: lightgray;
+	width: 100%;
+	height: 165px;
+	text-align: center;
+	padding-top: 135px;
+	margin: 0;
+	font-size: 30px;
+	display: none;
+}
+
+
+
+
+/* FOOTER */
+
+.footer {
+	background-color: #E7E7E7;
+	padding: 2% 1% 1% 1%;
+	max-padding: 0;
+	display: flex;
+}
+
+.text {
+	width: 80%;
+	height: 25px;
+}
+
+.add {
+	width: 20%;
+	margin: 0 0 0 1%;
+	background-color: #E7E7E7;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/* @media screen and (max-width: 600px) {
+	.add {
+		width: 20%;
+		margin: 0;
+	}
+	.text {
+		width: 80%;
+		height: 30px;
+	}
+	.footer {
+		background-color: #E7E7E7;
+		padding: 0;
+	}
+   }
+*/
